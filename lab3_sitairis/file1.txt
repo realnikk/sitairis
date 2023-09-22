@@ -1,1 +1,1 @@
-Hello Git
+Hello changes in Git
