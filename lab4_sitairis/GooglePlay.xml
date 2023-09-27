@@ -42,7 +42,7 @@
 </html:p>
         </gp:description>
     </gp:application>
-    <gp:product id="11.70.59.38">
+    <gp:application id="11.70.59.38">
         <gp:name>Google Chrome</gp:name>
         <gp:company>Google</gp:company>
         <gp:releasedate>07.02.2012</gp:releasedate>
@@ -60,8 +60,8 @@
 </html:ul>
 </html:p>
         </gp:description>
-    </gp:product>
-    <gp:product id="18.37.35.00">
+    </gp:application>
+    <gp:application id="18.37.35.00">
         <gp:name>YouTube</gp:name>
         <gp:company>Google</gp:company>
         <gp:releasedate>20.10.2010</gp:releasedate>
@@ -82,8 +82,8 @@
 </html:ul>
 </html:p>
         </gp:description>
-    </gp:product>
-    <gp:product id="31.04.03.00">
+    </gp:application>
+    <gp:application id="31.04.03.00">
         <gp:name>TikTok</gp:name>
         <gp:company>ByteDance</gp:company>
         <gp:releasedate>14.09.2015</gp:releasedate>
@@ -104,8 +104,8 @@
 </html:ul>
 </html:p>
         </gp:description>
-    </gp:product>
-    <gp:product id="20.23.09.03">
+    </gp:application>
+    <gp:application id="20.23.09.03">
         <gp:name>Yandex Music</gp:name>
         <gp:company>Yandex</gp:company>
         <gp:releasedate>22.05.2013</gp:releasedate>
@@ -126,5 +126,5 @@
 </html:ul>
 </html:p>
         </gp:description>
-    </gp:product>
+    </gp:application>
 </gp:googleplay>
