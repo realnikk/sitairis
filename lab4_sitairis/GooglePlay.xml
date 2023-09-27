@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<gp:googleplay xmlns:gp="https://play.google.com"
+           xmlns:html="https://htmlbook.ru/html5">
+    <gp:application id="14.38.23.29">
+        <gp:name>Google Search</gp:name>
+        <gp:company>Google</gp:company>
+        <gp:releasedate>12.08.2010</gp:releasedate>
+        <gp:lastupdate>20.09.2023</gp:lastupdate>
+        <gp:agelimit>3+</gp:agelimit>
+        <gp:price>0</gp:price>
+        <gp:reviews>26000000</gp:reviews>
+        <gp:rating>3.7</gp:rating>
+        <gp:description>
+<html:p>Google Search is a web search engine developed by Google LLC. It is the most widely used search engine on the World Wide Web and is designed to provide relevant search results quickly and accurately.</html:p>
+<html:p>Google Search can be done in several ways
+<html:ul>
+    <html:li>Search by key words</html:li>
+    <html:li>Search by URL</html:li>
+    <html:li>Voice search</html:li>
+    <html:li>Photo search</html:li>
+</html:ul>
+</html:p>
+        </gp:description>
+    </gp:application>
+    <gp:application id="11.97.03.03">
+        <gp:name>Google Maps</gp:name>
+        <gp:company>Google</gp:company>
+        <gp:releasedate>23.09.2008</gp:releasedate>
+        <gp:lastupdate>14.09.2023</gp:lastupdate>
+        <gp:agelimit>3+</gp:agelimit>
+        <gp:price>0</gp:price>
+        <gp:reviews>17000000</gp:reviews>
+        <gp:rating>3.8</gp:rating>
+        <gp:description>
+<html:p>Google Maps is a web mapping service developed by Google. It provides interactive maps, satellite imagery, and route planning for users around the world.</html:p>
+<html:p>It is possible to switch between different map layers
+<html:ul>
+    <html:li>Default</html:li>
+    <html:li>Satellite</html:li>
+    <html:li>Terrain</html:li>
+</html:ul>
+</html:p>
+        </gp:description>
+    </gp:application>
+    <gp:product id="11.70.59.38">
+        <gp:name>Google Chrome</gp:name>
+        <gp:company>Google</gp:company>
+        <gp:releasedate>07.02.2012</gp:releasedate>
+        <gp:lastupdate>11.09.2023</gp:lastupdate>
+        <gp:agelimit>3+</gp:agelimit>
+        <gp:price>0</gp:price>
+        <gp:reviews>41000000</gp:reviews>
+        <gp:rating>3.5</gp:rating>
+        <gp:description>
+<html:p>Google Chrome is a web browser developed by Google. It is known for its speed, simplicity, and security features.</html:p>
+<html:p>Google Chrome works in 2 modes
+<html:ul>
+    <html:li>Usual mode</html:li>
+    <html:li>Incognito mode</html:li>
+</html:ul>
+</html:p>
+        </gp:description>
+    </gp:product>
+    <gp:product id="18.37.35.00">
+        <gp:name>YouTube</gp:name>
+        <gp:company>Google</gp:company>
+        <gp:releasedate>20.10.2010</gp:releasedate>
+        <gp:lastupdate>19.09.2023</gp:lastupdate>
+        <gp:agelimit>12+</gp:agelimit>
+        <gp:price>14</gp:price>
+        <gp:reviews>141000000</gp:reviews>
+        <gp:rating>3.6</gp:rating>
+        <gp:description>
+<html:p>YouTube is an American online video sharing and social media platform</html:p>
+<html:p>It includes several products
+<html:ul>
+    <html:li>YouTube Kids</html:li>
+    <html:li>YouTube Premium</html:li>
+    <html:li>YouTube Music</html:li>
+    <html:li>YouTube Shorts</html:li>
+    <html:li>YouTube TV</html:li>
+</html:ul>
+</html:p>
+        </gp:description>
+    </gp:product>
+    <gp:product id="31.04.03.00">
+        <gp:name>TikTok</gp:name>
+        <gp:company>ByteDance</gp:company>
+        <gp:releasedate>14.09.2015</gp:releasedate>
+        <gp:lastupdate>17.09.2023</gp:lastupdate>
+        <gp:agelimit>12+</gp:agelimit>
+        <gp:price>0</gp:price>
+        <gp:reviews>56000000</gp:reviews>
+        <gp:rating>4.3</gp:rating>
+        <gp:description>
+<html:p>TikTok is a short-form video hosting service. It hosts user-submitted videos, which can range in duration from 3 seconds to 10 minutes.</html:p>
+<html:p>Navigation field in the app contains 5 buttons
+<html:ul>
+    <html:li>Home page</html:li>
+    <html:li>Interesting</html:li>
+    <html:li>Create video</html:li>
+    <html:li>Incoming messages</html:li>
+    <html:li>Profile</html:li>
+</html:ul>
+</html:p>
+        </gp:description>
+    </gp:product>
+    <gp:product id="20.23.09.03">
+        <gp:name>Yandex Music</gp:name>
+        <gp:company>Yandex</gp:company>
+        <gp:releasedate>22.05.2013</gp:releasedate>
+        <gp:lastupdate>13.09.2023</gp:lastupdate>
+        <gp:agelimit>12+</gp:agelimit>
+        <gp:price>3</gp:price>
+        <gp:reviews>1000000</gp:reviews>
+        <gp:rating>4.3</gp:rating>
+        <gp:description>
+<html:p>Yandex Music is a streaming service of the Yandex company, which allows you to listen to individual musical compositions, albums, selections of music tracks and receive personal recommendations.</html:p>
+<html:p>Collections in Music
+<html:ul>
+    <html:li>Popular in Belarus</html:li>
+    <html:li>Autumn</html:li>
+    <html:li>In trend</html:li>
+    <html:li>According to my mood</html:li>
+    <html:li>Вackground music</html:li>
+</html:ul>
+</html:p>
+        </gp:description>
+    </gp:product>
+</gp:googleplay>
