@@ -2,6 +2,7 @@ class Application {
     private String id;
     private String name;
     private String company;
+    private String category;
     private String releaseDate;
     private String lastUpdate;
     private String ageLimit;
@@ -27,6 +28,12 @@ class Application {
     }
     public void setCompany(String company) {
         this.company = company;
+    }
+    public String getCategory() {
+        return category;
+    }
+    public void setCategory(String category) {
+        this.category = category;
     }
     public String getReleaseDate() {
         return releaseDate;
@@ -75,6 +82,7 @@ class Application {
                 "App ID " + id + '\n' +
                 "App name: " + name + '\n' +
                 "Company-developer: " + company + '\n' +
+                "Category: " + category + '\n' +
                 "Release date: " + releaseDate + '\n' +
                 "Last update: " + lastUpdate + '\n' +
                 "Age limit: " + ageLimit + '\n' +

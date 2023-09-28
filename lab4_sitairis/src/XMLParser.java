@@ -34,6 +34,7 @@ public class XMLParser {
                 String appID = app.getAttribute("id");
                 String name = app.getElementsByTagNameNS("https://play.google.com", "name").item(0).getTextContent();
                 String company = app.getElementsByTagNameNS("https://play.google.com", "company").item(0).getTextContent();
+                String category = app.getElementsByTagNameNS("https://play.google.com", "category").item(0).getTextContent();
                 String releaseDate = app.getElementsByTagNameNS("https://play.google.com", "releasedate").item(0).getTextContent();
                 String lastUpdate = app.getElementsByTagNameNS("https://play.google.com", "lastupdate").item(0).getTextContent();
                 String ageLimit = app.getElementsByTagNameNS("https://play.google.com", "agelimit").item(0).getTextContent();
@@ -45,6 +46,7 @@ public class XMLParser {
                 appObject.setID(appID);
                 appObject.setName(name);
                 appObject.setCompany(company);
+                appObject.setCategory(category);
                 appObject.setReleaseDate(releaseDate);
                 appObject.setLastUpdate(lastUpdate);
                 appObject.setAgeLimit(ageLimit);

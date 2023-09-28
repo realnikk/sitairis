@@ -4,6 +4,7 @@
     <gp:application id="14.38.23.29">
         <gp:name>Google Search</gp:name>
         <gp:company>Google</gp:company>
+        <gp:category>Education</gp:category>
         <gp:releasedate>12.08.2010</gp:releasedate>
         <gp:lastupdate>20.09.2023</gp:lastupdate>
         <gp:agelimit>3+</gp:agelimit>
@@ -25,6 +26,7 @@
     <gp:application id="11.97.03.03">
         <gp:name>Google Maps</gp:name>
         <gp:company>Google</gp:company>
+        <gp:category>Navigation</gp:category>
         <gp:releasedate>23.09.2008</gp:releasedate>
         <gp:lastupdate>14.09.2023</gp:lastupdate>
         <gp:agelimit>3+</gp:agelimit>
@@ -45,6 +47,7 @@
     <gp:application id="11.70.59.38">
         <gp:name>Google Chrome</gp:name>
         <gp:company>Google</gp:company>
+        <gp:category>Education</gp:category>
         <gp:releasedate>07.02.2012</gp:releasedate>
         <gp:lastupdate>11.09.2023</gp:lastupdate>
         <gp:agelimit>3+</gp:agelimit>
@@ -64,6 +67,7 @@
     <gp:application id="18.37.35.00">
         <gp:name>YouTube</gp:name>
         <gp:company>Google</gp:company>
+        <gp:category>Entertainment</gp:category>
         <gp:releasedate>20.10.2010</gp:releasedate>
         <gp:lastupdate>19.09.2023</gp:lastupdate>
         <gp:agelimit>12+</gp:agelimit>
@@ -86,6 +90,7 @@
     <gp:application id="31.04.03.00">
         <gp:name>TikTok</gp:name>
         <gp:company>ByteDance</gp:company>
+        <gp:category>Entertainment</gp:category>
         <gp:releasedate>14.09.2015</gp:releasedate>
         <gp:lastupdate>17.09.2023</gp:lastupdate>
         <gp:agelimit>12+</gp:agelimit>
@@ -107,6 +112,7 @@
     </gp:application>
     <gp:application id="20.23.09.03">
         <gp:name>Yandex Music</gp:name>
+        <gp:category>Entertainment</gp:category>
         <gp:company>Yandex</gp:company>
         <gp:releasedate>22.05.2013</gp:releasedate>
         <gp:lastupdate>13.09.2023</gp:lastupdate>
