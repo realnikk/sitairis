@@ -7,7 +7,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class XMLParser {
-    public static List<Application> appList = new ArrayList<>();
+    public static List<Application> applicationList = new ArrayList<>();
     public static void main(String[] args) {
         try {
             // Создаем фабрику для создания парсера
@@ -17,7 +17,7 @@ public class XMLParser {
             DocumentBuilder builder = factory.newDocumentBuilder();
 
             // Чтение XML-файла и создание объекта документа
-            File xmlFile = new File("GooglePlay.xml");
+            File xmlFile = new File("lab4_sitairis/GooglePlay.xml");
             Document document = builder.parse(xmlFile);
 
             // Получение корневого элемента
@@ -55,6 +55,7 @@ public class XMLParser {
                 appObject.setRating(Double.parseDouble(rating));
                 appObject.setDescription(description);
 
+                applicationList.add(appObject);
                 System.out.println(appObject.getInfo());
             }
         } catch (Exception e) {
