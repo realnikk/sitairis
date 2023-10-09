@@ -29,8 +29,8 @@ public abstract class Application {
     public void exit() {
         System.out.println("Завершение работы приложения " + name);
     }
-    public void setPremiumVersionPrice() {
-        strategy.setPremiumVersionPrice();
+    public String setPremiumVersionPrice() {
+        return strategy.setPremiumVersionPrice();
     }
 
     //public void releasePremiumVersion(PremiumVersionStrategy strategy) {

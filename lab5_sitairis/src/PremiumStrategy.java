@@ -1,3 +1,3 @@
 public interface PremiumStrategy {
-    void setPremiumVersionPrice();
+    String setPremiumVersionPrice();
 }

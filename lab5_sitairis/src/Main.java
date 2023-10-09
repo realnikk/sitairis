@@ -8,10 +8,10 @@ import java.io.File;
 
 import javax.swing.*;
 import java.awt.*;
-import java.util.ArrayList;
+import java.util.*;
 import java.util.List;
 
-public class Main {
+public class Main{
     public static void main(String[] args) {
         try {
             // Создаем фабрику для создания парсера
@@ -56,6 +56,11 @@ public class Main {
                 statistic.updateStatistic(appObject);
             }
             statistic.printStatistic();
+            SwingUtilities.invokeLater(() -> {
+                Diagrams example = new Diagrams(statistic.getTextEditorCount(), statistic.getImageEditorCount(), statistic.getCalculatorCount(), statistic.getRatingData());
+                example.setVisible(true);
+            });
+
         } catch (Exception e) {
             e.printStackTrace();
         }

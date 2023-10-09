@@ -4,7 +4,7 @@ public class PremiumVersion implements PremiumStrategy{
         this.price = price;
     }
     @Override
-    public void setPremiumVersionPrice() {
-        System.out.println("Monthly premium version costs " + price + "$");
+    public String setPremiumVersionPrice() {
+        return "Monthly premium version costs " + price + "$";
     }
 }

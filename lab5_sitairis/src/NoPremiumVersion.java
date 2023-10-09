@@ -1,6 +1,6 @@
 public class NoPremiumVersion implements PremiumStrategy{
     @Override
-    public void setPremiumVersionPrice() {
-        System.out.println("There is no premium version for this application");
+    public String setPremiumVersionPrice() {
+        return "There is no premium version for this application";
     }
 }
