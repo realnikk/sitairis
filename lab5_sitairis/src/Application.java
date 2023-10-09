@@ -1,5 +1,5 @@
 public abstract class Application {
-    //PremiumStrategy strategy;
+    PremiumStrategy strategy;
     protected String id;
     protected String name;
     protected String company;
@@ -29,9 +29,9 @@ public abstract class Application {
     public void exit() {
         System.out.println("Завершение работы приложения " + name);
     }
-    //public void setPremiumVersionPrice() {
-        //strategy.setPremiumVersionPrice();
-    //}
+    public void setPremiumVersionPrice() {
+        strategy.setPremiumVersionPrice();
+    }
 
     //public void releasePremiumVersion(PremiumVersionStrategy strategy) {
       //  strategy.sellPremiumVersion();

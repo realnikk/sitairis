@@ -21,7 +21,7 @@ public class Main {
             DocumentBuilder builder = factory.newDocumentBuilder();
 
             // Чтение XML-файла и создание объекта документа
-            File xmlFile = new File("lab55_sitairis/GooglePlay.xml");
+            File xmlFile = new File("lab5_sitairis/GooglePlay.xml");
             Document document = builder.parse(xmlFile);
 
             // Получение корневого элемента
@@ -52,7 +52,7 @@ public class Main {
                 String rating = app.getElementsByTagNameNS("https://play.google.com", "rating").item(0).getTextContent();
                 String description = app.getElementsByTagNameNS("https://play.google.com", "description").item(0).getTextContent();
 
-                Application appObject = appFactory.createApp(appID, name, company, category, releaseDate, lastUpdate, ageLimit, Integer.parseInt(reviews), Double.parseDouble(rating), description);
+                Application appObject = appFactory.createApp(appID, name, company, category, releaseDate, lastUpdate, ageLimit, Double.parseDouble(price), Integer.parseInt(reviews), Double.parseDouble(rating), description);
                 statistic.updateStatistic(appObject);
             }
             statistic.printStatistic();

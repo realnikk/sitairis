@@ -10,11 +10,11 @@ public class AppsStatistic {
     private Integer imageEditorCount = 0;
     private Double imageEditorMaxRating = 0.0;
     private String topRatedImageEditor;
-    private List<ImageEditor> imageEditorsList = new ArrayList<>();
+    private List<Application> imageEditorsList = new ArrayList<>();
     private Integer calculatorCount = 0;
     private Double calculatorMaxRating = 0.0;
     private String topRatedCalculator;
-    private List<CalculatorApp> calculatorsList = new ArrayList<>();
+    private List<Application> calculatorsList = new ArrayList<>();
     private AppsStatistic() {}
     public static AppsStatistic getInstance() {
         if (instance == null) {
@@ -37,6 +37,7 @@ public class AppsStatistic {
                 break;
             case "IMAGE_EDITOR":
                 imageEditorCount++;
+                imageEditorsList.add(app);
                 if(imageEditorMaxRating <= app.getRating()){
                     imageEditorMaxRating = app.getRating();
                     topRatedImageEditor = app.getName();
@@ -44,6 +45,7 @@ public class AppsStatistic {
                 break;
             case "CALCULATOR":
                 calculatorCount++;
+                calculatorsList.add(app);
                 if(calculatorMaxRating <= app.getRating()){
                     calculatorMaxRating = app.getRating();
                     topRatedCalculator = app.getName();
@@ -62,7 +64,15 @@ public class AppsStatistic {
         }
         System.out.println("Number of image editors: "+imageEditorCount);
         System.out.println("The best image editor: "+topRatedImageEditor+" with rating "+imageEditorMaxRating+" stars");
+        System.out.println("List of image editors: ");
+        for (Application list : imageEditorsList) {
+            System.out.println(list.getName());
+        }
         System.out.println("Number of calculators: "+calculatorCount);
         System.out.println("The best calculator: "+topRatedCalculator+" with rating "+calculatorMaxRating+" stars");
+        System.out.println("List of calculators: ");
+        for (Application list : calculatorsList) {
+            System.out.println(list.getName());
+        }
     }
 }
